@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Tiny5&display=swap');
 body {
     height: 100vh;
     display: flex;
@@ -8,7 +9,7 @@ body {
 
 h1 {
     color:#101E53;
-    font-family: 'Pacifico', cursive;
+    font-family: "Tiny5", serif;
     text-align: center;
     font-size: 70px;
     text-shadow: 0 4px 0 whitesmoke,
@@ -18,7 +19,7 @@ h1 {
 }
 
 @keyframes float {
-    from {transform: rotate(20deg);}
+    from {transform: rotate(-40deg);}
 
-    to {transform: rotate(-20deg);}
+    to {transform: rotate(40deg);}
 }
